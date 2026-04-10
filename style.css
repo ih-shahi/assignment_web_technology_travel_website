@@ -201,10 +201,16 @@ button {
   display: none !important;
 }
 
-.lang-selector {
+.lang-selector select {
+  font-family: inherit;
+  font-size: 15px;
   font-weight: 500;
   color: var(--dark-blue);
+  background: transparent;
+  border: none;
   cursor: pointer;
+  outline: none;
+  padding: 2px 4px;
 }
 
 .hamburger {
